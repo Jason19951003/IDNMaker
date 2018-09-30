@@ -19,7 +19,7 @@ public class IDNMaker extends JFrame implements ActionListener {
 			'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
 	
 	public IDNMaker() {
-		this.setBounds(20, 20, 250, 200);
+		this.setBounds(20, 20, 300, 200);
 		this.setTitle("身分證產生器");
 		this.getContentPane().setLayout(null);
 		jcombo1 = new JComboBox();
